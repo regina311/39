@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.example.tests.GroupRemovalTests"/>
+      <class name="com.example.tests.ContactsCreationTests"/>
+      <class name="com.example.tests.ContactRemovalTests"/>
+      <class name="com.example.tests.GroupCreationTests"/>
+      <class name="com.example.tests.TestBase"/>
+      <class name="com.example.tests.ContactModificationTests"/>
+      <class name="com.example.tests.GroupModificationTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
