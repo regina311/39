@@ -1,0 +1,47 @@
+
+
+create CSV files 
+
+ 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts> java -cp bin com.example.tests.GroupDataGenerator 3 groups.txt csv 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts> del groups.txt 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts> java -cp bin com.example.tests.GroupDataGenerator 3 groups.txt csv 
+C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts>java -cp bin com.example.tests.ContactDataGenerator 3 contacts.txt csv 
+C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts>> del contacts.txt 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts> java -cp bin com.example.tests.ContactDataGenerator 3 contacts.txt csv 
+ 
+ 
+ create XML files
+ 
+ 
+ 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts>java -cp bin;c:\Users\ishtuganovar\Downloads\xstream-distribution-1.4.8-bin\
+xstream-1.4.8\lib\xstream-1.4.8.jar;c:\Users\ishtuganovar\Downloads\xstream-dist
+ribution-1.4.8-bin\xstream-1.4.8\lib\xstream\xpp3_min-1.1.4c;c:\Users\ishtuganov
+ar\Downloads\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream\xmlpull-1.
+1.3.1;C:\Users\ishtuganovar\Downloads\selenium-server-standalone-2.45.0.jar com.example.tests.GroupDataGenerator 3 groups.xml xml 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts>java -cp bin;c:\Users\ishtuganovar\Downloads\xstream-distribution-1.4.8-bin\
+xstream-1.4.8\lib\xstream-1.4.8.jar;c:\Users\ishtuganovar\Downloads\xstream-dist
+ribution-1.4.8-bin\xstream-1.4.8\lib\xstream\xpp3_min-1.1.4c;c:\Users\ishtuganov
+ar\Downloads\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream\xmlpull-1.
+1.3.1;C:\Users\ishtuganovar\Downloads\selenium-server-standalone-2.45.0.jar del contacts.xml 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts>java -cp bin;c:\Users\ishtuganovar\Downloads\xstream-distribution-1.4.8-bin\
+xstream-1.4.8\lib\xstream-1.4.8.jar;c:\Users\ishtuganovar\Downloads\xstream-dist
+ribution-1.4.8-bin\xstream-1.4.8\lib\xstream\xpp3_min-1.1.4c;c:\Users\ishtuganov
+ar\Downloads\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream\xmlpull-1.
+1.3.1;C:\Users\ishtuganovar\Downloads\selenium-server-standalone-2.45.0.jar com.example.tests.ContactDataGenerator 3 contacts.xml xml 
+ 	 
+run auto tests 
+ 
+ 
+ C:\Users\ishtuganovar\Desktop\addressbook-selenium-tests\addressbook-selenium-te
+sts>  java -cp bin; E:\xstream-1.4.8\lib\xstream-1.4.8.jar; E:\xstream-1.4.8\lib\xstream 
